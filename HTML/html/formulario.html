@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios</title>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form action="" method="">
+
+		<!-- Input text -->
+		<label for="TXT_NOMBRE">
+			Nombre
+		</label>
+		<input type="text" name="TXT_NOMBRE" id="TXT_NOMBRE" placeholder="Escribe tu nombre..">
+
+		<hr>
+		<!-- Text Area -->
+		<label for="TXA_DESCRIPCION">Descripcion</label>
+		<textarea name="TXA_DESCRIPCION"></textarea>
+
+
+ 		<hr>
+		<!-- Radio -->
+		<input type="radio" name="genero" value="Hombre"> Hombre <br>
+		<input type="radio" name="genero" value="Mujer"> Mujer <br>
+		<input type="radio" name="genero" value="Otro"> Otro<br>
+
+		<hr>
+		<!-- Select -->
+		<select name="Genero">
+			<option value="Hombre">Hombre</option>
+			<option value="Mujer">Mujer</option>
+			<option value="Otro">Otro</option>
+		</select>
+
+		<hr>
+		<!-- Botones Submit-->
+		<input type="submit" name="Enviar" id="BTN_ENVIAR">
+	</form>
+</body>
+</html>
