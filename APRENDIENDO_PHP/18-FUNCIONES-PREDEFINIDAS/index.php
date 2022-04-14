@@ -77,4 +77,9 @@ echo $frase.'<hr>';
 //Funcion minuscula a mayuscula
 echo strtoupper($frase).'<hr>';
 echo strtolower($frase).'<hr>';
+
+
+
+//Header
+header("Location: <path>")
 ?>

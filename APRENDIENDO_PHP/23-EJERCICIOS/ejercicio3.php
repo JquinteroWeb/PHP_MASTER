@@ -1,7 +1,7 @@
 <?php
 	/*
 
-	Ejercicio 3 Programa que compruebe si una variable esta vacia y si esta vacia rellenarla con texto en minuscula y mostrarla en mayuscaulas y en negrita
+	Ejercicio 3 Programa que compruebe si una array esta vacio y si esta vacio rellenarla con texto en minuscula y mostrarla en mayuscaulas y en negrita
 
 	*/
 
@@ -10,7 +10,7 @@
 
 		array_push($letras,strtolower('Juan'));
 		array_push($letras,strtolower('quInterO'));
-		
+
 		echo mostrar($letras);
 
 	}else {
